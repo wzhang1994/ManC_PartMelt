@@ -21,7 +21,7 @@ figname = "Out.png"
 # print(df)
 
 print("\nReading the chemical composition of original source...")
-x_o_name = "DMM"
+x_o_name = "DMM"	# The chemical composition of original mantle
 print("The name of source (x_o, wt %): ", x_o_name)
 for i in df.index:
 	ann = df.loc[i]
